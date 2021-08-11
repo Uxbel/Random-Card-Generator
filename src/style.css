@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.bottom-suit {
+  transform: rotate(180deg);
+}
+
+.card {
+  margin: auto;
+  box-shadow: 1px 2px 13px 4px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 1px 2px 13px 4px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 1px 2px 13px 4px rgba(0, 0, 0, 0.14);
+}
+
+p {
+  font-weight: 700;
+}
+
+a {
+  color: white;
+}
+
+.spade::after {
+  content: "\2660";
+}
+
+.club::after {
+  content: "\2663";
+}
+
+.heart::after {
+  content: "\2665";
+  color: red;
+}
+
+.diamond::after {
+  content: "\2666";
+  color: red;
+}
+
+#size {
+  width: 16rem;
+  height: 24rem;
+}
